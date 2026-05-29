@@ -1,0 +1,40 @@
+# Node modules (any depth)
+**/node_modules/
+
+# Vite / build outputs
+dist/
+.vite/
+build/
+out/
+
+# Environment files
+.env
+.env.*.local
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debug
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage and test caches
+coverage/
+.nyc_output/
+.vitest/
+jest.cache
+
+# Caches
+.cache/
+.esbuild/
+
+# Misc sensitive files
+*.pem
+*.key
