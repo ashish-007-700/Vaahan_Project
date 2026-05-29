@@ -6,9 +6,6 @@
       "config": { "distDir": "dist" }
     }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/Vaahan_prototype/dist/index.html" }
-  ],
   "installCommand": "npm install --prefix Vaahan_prototype",
   "buildCommand": "npm run build --prefix Vaahan_prototype"
 }
